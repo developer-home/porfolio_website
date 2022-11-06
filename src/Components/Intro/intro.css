@@ -1,0 +1,77 @@
+/* -------Intro.js file style----------- */
+
+.intro-main {
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+    z-index: -999999;
+
+}
+
+.intro-t {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: unset;
+}
+
+.intro-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 20px;
+
+}
+
+.info-n {
+    color: orange;
+    font-style: unset;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.intro-btn {
+    display: flex;
+    gap: 2rem;
+}
+
+.btn-h {
+    color: white;
+    border-radius: 15px;
+}
+
+.btn-d {
+    border: 2px solid green;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+
+.i {
+    height: 350px;
+}
+
+@media screen and (max-width: 768px){
+    .intro-t{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .intro-btn{
+        transform: scale(0.8);
+    }
+    .intro-main{
+        padding: 0;
+    }
+    .i{
+        height: 250px;
+    }
+    .intro-info{
+        font-size: 20px;
+    }
+    .info-n{
+        font-size: 26px;
+    }
+}

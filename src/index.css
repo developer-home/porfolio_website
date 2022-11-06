@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'custom-roboto-font';
+  src: url('./Fonts/roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'custon-serif-font';
+  src: url('./Fonts/open-sans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'custom-montserrat-font';
+  src: url('./Fonts/montserrat/Montserrat-Regular.ttf');
+}
+
+* {
+  font-family: 'custom-montserrat-font';
+}
+.s-text {
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.def{
+  font-style: unset;
+}
+span{
+  font-style: unset;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+:root {
+  --orange: orange;
+  --grey: grey;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.main-container {
+  /*background-image: url(../Assets/bg.jpg);*/
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  mix-blend-mode: overlay;
+}
+
+.btn-primary {
+  background: var(--orange);
+  padding: 0.5rem;
+  font-weight: bold;
+  border: 4px solid transparent;
+  transition: 300ms all;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary:hover {
+  cursor: pointer;
+}
+
+.bread-crum {
+  color: orange;
+  position: absolute;
+  margin-top: -0.8rem;
+}

@@ -1,0 +1,132 @@
+.p-footer {
+    width: 100%;
+    border-radius: 3px;
+    font-family: sans-serif;
+}
+
+.footer-container {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 40px;
+}
+
+.footer-l {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.location {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+.location>p {
+    line-height: 30px;
+    gap: 1rem;
+}
+
+.phone>h4 {
+    display: flex;
+    gap: 2rem;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.email>h4 {
+    display: flex;
+    gap: 2rem;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.footer-r {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.footer-r>h4 {
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.footer-r>p {
+    margin-top: 0.3px;
+    gap: 2rem;
+}
+
+.f-social {
+    margin-top: 1rem;
+}
+
+.sp {
+    text-align: center;
+    height: fit-content;
+    color: grey;
+    width: 100%;
+    bottom: 0;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.2rem;
+    padding: 0.2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        position: relative;
+        margin-top: 2rem;
+    }
+
+    .p-footer {
+        z-index: -999999;
+    }
+
+    .sp {
+        margin-top: 3rem;
+        font-size: small;
+    }
+    .f-social{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-l>:nth-child(1) {
+        font-size: small;
+    }
+    .footer-r{
+        margin-top: -2rem;
+    }
+
+    .email>h4 {
+        font-size: small;
+    }
+
+    .phone>h4 {
+        font-size: small;
+    }
+
+    .footer-r>:nth-child(1){
+        font-size: medium;
+    }
+
+    .footer-r>:nth-child(2) {
+        font-size: small;
+    }
+
+
+}

@@ -1,0 +1,507 @@
+/*Profile.css File styles*/
+.p-container {
+    display: flex;
+    justify-content: space-between;
+    height: 27rem;
+    padding: 0 2rem;
+    background-color: lightgray;
+}
+
+.p-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-transform: uppercase;
+    color: white;
+    flex: 1 1;
+}
+
+.profile-heading {
+    color: orange;
+    margin-top: 2rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    ;
+}
+
+.profile-summary {
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2px;
+}
+
+.values {
+    margin-left: 12rem;
+    margin-top: -1.3rem;
+}
+
+.values>li {
+    list-style: disc;
+}
+
+span {
+    font-weight: bold;
+    margin-right: 4px;
+    text-transform: none;
+    font-style: italic;
+    color: black;
+}
+
+p {
+    color: gray;
+    text-transform: none;
+}
+
+.p-right {
+    flex: 1;
+    position: relative;
+
+}
+
+.p-right>img {
+    width: 17rem;
+    height: 20rem;
+    position: absolute;
+    right: 8rem;
+    top: 2rem;
+    object-fit: cover;
+}
+
+.p-right>:nth-child(1) {
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid orange;
+    background-color: transparent;
+    right: 8.5rem;
+    top: 1.5rem;
+}
+
+.p-right>:nth-child(2) {
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    background-color: orange;
+    right: 7.5rem;
+    top: 2.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .p-container {
+        margin-top: -4rem;
+        flex-direction: column;
+        transform: scale(0.8);
+        height: 56rem;
+        margin-bottom: 2px;
+    }
+
+    .p-right>img {
+        right: 4rem;
+        top: 2rem;
+    }
+
+    .p-right>:nth-child(1) {
+        right: 4.5rem;
+        top: 1.5rem;
+    }
+
+    .p-right>:nth-child(2) {
+        right: 3.5rem;
+        top: 2.5rem;
+    }
+}
+
+/*skills.js file css*/
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.skill-header>:nth-child(1) {
+    display: flex;
+    gap: 2rem;
+    font-weight: bold;
+    justify-content: center;
+    padding: 8px;
+    color: orange;
+    background-color: lightgray;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.nice {
+    color: green;
+}
+
+.skill-card {
+    display: flex;
+    gap: 1rem;
+}
+
+.skill-c {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    justify-content: space-between;
+}
+
+.skill-c>:nth-child(1) {
+    width: 2rem;
+    height: 2rem;
+    fill: orange;
+}
+
+.skill-c>:nth-child(2) {
+    font-size: 1.3rem;
+    color: cyan;
+    font-weight: bold;
+}
+
+.skill-c>:nth-child(3) {
+    font-size: 0.9rem;
+    color: white;
+    line-height: 25px;
+}
+
+.skill-c:hover {
+    background-color: lightslategrey;
+    cursor: pointer;
+}
+
+/*experience section*/
+.experience {
+    display: flex;
+    gap: 1rem;
+    height: 22rem;
+    padding: 2rem;
+}
+
+.exp-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-transform: uppercase;
+    color: white;
+    flex: 1 1;
+}
+
+.exp-left>:nth-child(1) {
+    color: orange;
+    font-weight: bold;
+}
+
+.exp-left>:nth-child(2) {
+    font-weight: bold;
+    font-style: unset;
+    font-size: 1.5rem;
+}
+
+.exp-left>:nth-child(3) {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.exp-left>:nth-child(4) {
+    text-transform: none;
+    text-align: justify;
+    font-style: unset;
+    color: orange;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.extras {
+    color: gray;
+}
+
+.exp-right {
+    flex: 1;
+    position: relative;
+}
+
+.exp-right>img {
+    position: absolute;
+    height: 20rem;
+    width: 17rem;
+    object-fit: cover;
+    right: 8rem;
+    object-fit: cover;
+    top: 2rem;
+}
+
+.exp-right>:nth-child(1) {
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid orange;
+    background-color: transparent;
+    right: 9rem;
+    top: 0.9rem;
+}
+
+.exp-right>:nth-child(2) {
+    position: absolute;
+    width: 17rem;
+    height: 19rem;
+    background-color: orange;
+    right: 7rem;
+    top: 4rem;
+}
+
+.exp-arrows {
+    display: flex;
+    position: absolute;
+    fill: blue;
+    bottom: 1rem;
+    gap: 1rem;
+    left: 3rem;
+}
+
+.exp-arrows>img {
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .skill-card {
+        flex-direction: column;
+    }
+    .experience{
+        flex-direction: column;
+    }
+}
+
+/*Education.js file css*/
+.edu-container {
+    margin-top: -15px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    height: 47rem;
+    margin-bottom: 5rem;
+}
+.e-left{
+    display: flex;
+    flex: 2;
+
+}
+.e-right{
+    flex: 1.5;
+}
+
+.c-hd{
+    display: flex;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    margin-right: 12rem;
+    color: orange;
+    align-items: center;
+}
+
+.e-hd {
+    color: rgb(53, 32, 32);
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.e-event>h3 {
+    color: orange;
+}
+
+.edu-content {
+    border-left: 4px solid #4298C3;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: rgba(255, 255, 255, 0.03);
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 0.5px;
+    position: relative;
+    line-height: 1.4em;
+    margin-left: -12rem;
+    font-size: 1.03em;
+    padding: 50px;
+    margin-top: 6rem;
+    list-style: none;
+    text-align: left;
+    font-weight: 100;
+    max-width: 50%;
+}
+
+.edu-content h1,
+.edu-content h2,
+.edu-content h3 {
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+    font-size: 1.4em;
+}
+
+.edu-content .e-event {
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    position: relative;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.edu-content .e-event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.edu-content .e-event:before,
+.edu-content .e-event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.edu-content .e-event:before {
+    left: -217.5px;
+    color: gray;
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 100;
+    font-size: 0.9em;
+    min-width: 120px;
+}
+
+.edu-content .e-event:after {
+    box-shadow: 0 0 0 4px #4298c3;
+    left: -57.85px;
+    background: #fff;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+    top: 5px;
+}
+
+@media screen and (max-width:768px) {
+    .edu-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: -60px;
+        font-size: small;
+    }
+
+    .e-hd {
+        font-size: 20px;
+        margin-bottom: 32px;
+    }
+}
+
+/*Gallery.js file css*/
+/*Contact.js file css*/
+.cont-container {
+    background-color: lightgray;
+}
+
+.contact {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    align-items: center;
+    background-color: lightgray;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    color: orange;
+}
+
+.contact>h3,
+.contact>h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+input {
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    padding: 12px;
+    color: white;
+}
+
+::placeholder {
+    text-align: start;
+    text-align: center;
+    color: white;
+}
+
+textarea {
+    width: 51.5%;
+    border-radius: 5px;
+    height: 120px;
+    background-color: grey;
+    text-align: center;
+    resize: none;
+    color: white;
+
+}
+
+.btn-c {
+    width: 52.1%;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.contact-s {
+    background-color: lightgray;
+    margin-top: -25px;
+    margin-bottom: 29px;
+    height: 10rem;
+}
+
+.contact-s>:nth-child(1) {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:768px) {
+    .contact {
+        margin-top: -4rem;
+        margin-bottom: 1rem;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    textarea {
+        width: 92.5%;
+    }
+
+    .btn-c {
+        width: 92.5%;
+    }
+
+}
