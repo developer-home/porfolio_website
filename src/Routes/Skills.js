@@ -6,7 +6,6 @@ import Footer from "../Components/Footer/Footer";
 import Left from "../Assets/left.svg";
 import Right from "../Assets/right.svg";
 import { useState } from "react";
-
 import { motion } from "framer-motion";
 
 const Skills = () => {
