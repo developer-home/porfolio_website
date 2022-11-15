@@ -224,6 +224,7 @@ p {
 
 .exp-right {
     flex: 1;
+    margin-top: -2rem;
     position: relative;
 }
 
@@ -274,30 +275,32 @@ p {
     .skill-card {
         flex-direction: column;
     }
-    .experience{
+
+    .experience {
         flex-direction: column;
     }
 }
 
 /*Education.js file css*/
 .edu-container {
-    margin-top: -15px;
     background-color: lightgray;
     display: flex;
     justify-content: space-between;
     height: 47rem;
     margin-bottom: 5rem;
 }
-.e-left{
+
+.e-left {
     display: flex;
     flex: 2;
 
 }
-.e-right{
+
+.e-right {
     flex: 1.5;
 }
 
-.c-hd{
+.c-hd {
     display: flex;
     padding: 1rem;
     margin-top: 1rem;
@@ -404,6 +407,69 @@ p {
 }
 
 /*Gallery.js file css*/
+.gallery_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    padding: 2rem;
+}
+.gallery-header{
+    align-items: center;
+    justify-content: center;
+}
+.gallery-header>h2>span{
+    color: orange;
+    display: flex;
+    font-style: normal;
+    text-align: center;
+
+}
+.categoty {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.categoty>ul {
+    display: flex;
+    gap: 2rem;
+}
+.categoty>ul>li{
+    margin-top: 20px;
+    cursor: pointer;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+}
+.image_card{
+    width: 100%;
+    height: auto;
+    border: 10px;
+}
+.image_card>:nth-child(1){
+    width: 100%;
+    height: auto;
+}
+.image_card:hover{
+    background-color: orange;
+    cursor: pointer;
+    opacity: 100%;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+@media screen and(max-width: 768px){
+    .gallery{
+        display: flex;
+        width: 100%;
+    }
+}
+
 /*Contact.js file css*/
 .cont-container {
     background-color: lightgray;

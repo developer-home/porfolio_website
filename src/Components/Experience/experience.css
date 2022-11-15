@@ -1,35 +1,35 @@
-.exp-container {
+.exp_c-container {
     padding: 0 3rem 0 3rem;
     display: flex;
     height: 90vh;
     margin-top: -5rem;
     align-items: center;
 }
-.exp-head {
+.exp_c-head {
     display: flex;
     flex-direction: column;
     position: relative;
 }
 
-.exp-head>:nth-child(1) {
+.exp_c-head>:nth-child(1) {
     color: black;
     font-size: 2.5rem;
     font-weight: bold;
 }
 
-.exp-head>:nth-child(2) {
+.exp_c-head>:nth-child(2) {
     color: orange;
     font-size: 2.5rem;
     font-weight: bold;
 }
 
-.exp-head>:nth-child(3) {
+.exp_c-head>:nth-child(3) {
     color: gray;
     font-size: 14px;
     margin-top: 1rem;
 }
 
-.s-btn {
+.exp_c-btn {
     width: fit-content;
     margin-top: 0.9rem;
     border-radius: 10px;
@@ -38,68 +38,68 @@
     justify-content: center;
 }
 
-.exp-right {
+.exp_c-right {
     position: relative;
     margin-top: -17rem;
 }
 
-.exp-mainCircle {
+.exp_c-mainCircle {
     left: 9rem;
     position: relative;
     width: 18rem;
     height: 18rem;
     border-radius: 100%;
-    box-shadow: darkblue;
-    top: 2rem;
-    background: green;
+    box-shadow: rgb(5, 5, 96);
+    top: 9rem;
+    background: lightsteelblue;
     z-index: 2;
 }
 
-.exp-mainCircle> * {
+.exp_c-mainCircle> * {
     position: absolute;
 }
 
-.exp-mainCircle>:nth-child(1) {
+.exp_c-mainCircle>:nth-child(1) {
     top: -3rem;
     left: 5rem;
 }
 
-.exp-mainCircle>:nth-child(2) {
+.exp_c-mainCircle>:nth-child(2) {
     left: -3rem;
     top: 6rem;
 }
 
-.exp-mainCircle>:nth-child(3) {
+.exp_c-mainCircle>:nth-child(3) {
     left: 6rem;
     top: 6rem;
 }
 
-.exp-mainCircle>:nth-child(4) {
+.exp_c-mainCircle>:nth-child(4) {
     left: 15rem;
-    top: 5rem;
+    top: 6rem;
 }
 
-.exp-mainCircle>:nth-child(5) {
+.exp_c-mainCircle>:nth-child(5) {
     left: 6rem;
-    top: 16rem;
+    top: 14.5rem;
 }
 
-.exp-secCircle {
+.exp_c-secCircle {
     width: 6rem;
     height: 6rem;
     position: absolute;
     border-radius: 100%;
-    border: 5px solid #ebebeb;
+    border: 5px solid lightgray;
     display: flex;
     align-items: center;
     justify-content: center;
     background: "none";
     box-shadow: darkblue;
-    background: rgb(190, 186, 186)
+    background: white;
 }
 
-.exp-secCircle>img {
-    transform: scale(0.4);
+.exp_c-secCircle>img {
+    transform: scale(0.5);
 }
 
 @media screen and (max-width: 768px) {

@@ -87,3 +87,54 @@ export const workData = [
     skills: ["Service Charter Received"],
   },
 ];
+
+export const galleryData = [
+  {
+    image: img1,
+    imageDescription: "Sample Image data",
+  },
+  {
+    image: img1,
+    imageDescription: "Sample Image data",
+  },
+  {
+    image: img1,
+    imageDescription: "Sample Image data",
+  },
+  {
+    image: img1,
+    imageDescription: "Sample Image data",
+  },
+    {
+    image: img1,
+    imageDescription: "Sample Image data",
+  },
+    {
+    image: img1,
+    imageDescription: "Sample Image data",
+  },
+    {
+    image: img1,
+    imageDescription: "Sample Image data",
+  },
+    {
+    image: img1,
+    imageDescription: "Sample Image data",
+  },
+    {
+    image: img1,
+    imageDescription: "Sample Image data",
+  },
+    {
+    image: img1,
+    imageDescription: "Sample Image data",
+  },
+    {
+    image: img1,
+    imageDescription: "Sample Image data",
+  },
+    {
+    image: img1,
+    imageDescription: "Sample Image data",
+  },
+];

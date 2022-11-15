@@ -1,17 +1,17 @@
 import React from "react";
-import react from "../../logo.svg";
+//import react from "../../logo.svg";
 import { Link } from "react-router-dom";
-import html from '../../Assets/skills_img/html.png';
-import css from '../../Assets/skills_img/css.png';
-import js from '../../Assets/skills_img/js.png';
+import html from "../../Assets/skills_img/html.png";
+import css from "../../Assets/skills_img/css.png";
+import js from "../../Assets/skills_img/js.png";
 
-import './experience.css'
+import "./experience.css";
 
 const Experience = () => {
   return (
-    <div className="exp-container" id="experience">
-      <div className="exp-left">
-        <div className="exp-head">
+    <div className="exp_c-container" id="experience">
+      <div className="exp_c-left">
+        <div className="exp_c-head">
           <span className="def"> Software Development Knowledge</span>
           <span className="def">+ Others</span>
           <span>
@@ -27,21 +27,21 @@ const Experience = () => {
         </div>
       </div>
 
-      <div className="exp-right">
-        <div className="exp-mainCircle">
-          <div className="exp-secCircle">
+      <div className="exp_c-right">
+        <div className="exp_c-mainCircle">
+          <div className="exp_c-secCircle">
             <img src={js} alt="" />
           </div>
-          <div className="exp-secCircle">
+          <div className="exp_c-secCircle">
             <img src={html} alt="" />
           </div>
-          <div className="exp-secCircle">
-            <img src={react} alt="" />
-          </div>
-          <div className="exp-secCircle">
+          <div className="exp_c-secCircle">
             <img src={js} alt="" />
           </div>
-          <div className="exp-secCircle">
+          <div className="exp_c-secCircle">
+            <img src={js} alt="" />
+          </div>
+          <div className="exp_c-secCircle">
             <img src={css} alt="" />
           </div>
         </div>
