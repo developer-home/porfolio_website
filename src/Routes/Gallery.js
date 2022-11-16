@@ -1,7 +1,6 @@
 import React from "react";
 import Nav from "../Components/Nav/Nav";
 import "./routeStyle.css";
-import img from "../Assets/profile.jpg";
 import Footer from "../Components/Footer/Footer";
 import { galleryData } from "../Data/Data";
 
