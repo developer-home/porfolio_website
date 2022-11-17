@@ -301,8 +301,8 @@ p {
         display: none;
     }
 
-    .footer-l {
-        margin-top: 2rem;
+    .footer-container {
+        margin-top: 4rem;
     }
 }
 

@@ -18,7 +18,7 @@ const Skills = () => {
       <div className="skill-container">
         <div className="skill-header">
           <span>
-            My Skills ~ <span>Nicholas Kiplimo</span>
+            What i can do? ~ <span>Nicholas Kiplimo</span>
           </span>
         </div>
         <div className="skill-card">
