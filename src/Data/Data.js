@@ -76,15 +76,36 @@ export const skillData = [
 export const workData = [
   {
     img: img,
-    duration: "8th Nov 2021-8th Feb 2022",
-    institution: "Kasneb",
-    skills: ["Network Management", "IT Support activities", "Software Testing"],
+    duration: "Nov 2021-Feb 2022",
+    institution: "KASNEB, ICT Intern",
+    skills: [
+      "During this period, i took part in assisting with the installation of different software systems such as Antivirus, Microsoft products, ERP systems amoung other software products as required of me ",
+      ", Assisted with Network troubleshooting, Network connections and network Maintainance",
+      ", Collaborated with the team members to test Bulk SMS System and generating report for the tests",
+      ", Providing Technical support to students on the issues raised by the ERP system",
+      ", Please download my resume for comprehensive report",
+    ],
   },
   {
     img: img1,
-    duration: "10th Nov 2020-18th Feb 2022",
-    institution: "Kenya Accouts",
-    skills: ["Service Charter Received"],
+    duration: "April 2022-Present",
+    institution: "Freelancer, I.C.T",
+    skills: [
+      "Providing ICT service as contracted by a client",
+      ", Doing web designs with React JS, Learning on how to work with Restful APIs, API intergration with the system such as MPESA Daraja API",
+      ", More coming.....",
+    ],
+  },
+  {
+    img: img,
+    duration: "April 2022-Aug 2022",
+    institution:"JETXIN Company Ltd, Sales and Digital Marketer",
+    skills:[
+      "Was tasked with, Selling products and services to clients using solid arguments",
+      ", Maintaining good customer relations",
+      ", coordinating sales effort with my team member to attain the target set and ",
+      "expedite the resolution of customer problems and complaints to maximize satisfaction."
+    ]
   },
 ];
 
@@ -105,35 +126,35 @@ export const galleryData = [
     image: img1,
     imageDescription: "Sample Image data",
   },
-    {
+  {
     image: img1,
     imageDescription: "Sample Image data",
   },
-    {
+  {
     image: img1,
     imageDescription: "Sample Image data",
   },
-    {
+  {
     image: img1,
     imageDescription: "Sample Image data",
   },
-    {
+  {
     image: img1,
     imageDescription: "Sample Image data",
   },
-    {
+  {
     image: img1,
     imageDescription: "Sample Image data",
   },
-    {
+  {
     image: img1,
     imageDescription: "Sample Image data",
   },
-    {
+  {
     image: img1,
     imageDescription: "Sample Image data",
   },
-    {
+  {
     image: img1,
     imageDescription: "Sample Image data",
   },
