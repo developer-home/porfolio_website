@@ -1,11 +1,11 @@
-import img from "../Assets/bg.jpg";
+//import img from "../Assets/bg.jpg";
 import img1 from "../Assets/profile.jpg";
 
 /* Skills Data */
 export const skillData = [
   {
     image: (
-      <svg
+        <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
         height="16"
