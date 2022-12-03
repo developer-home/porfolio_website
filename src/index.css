@@ -13,7 +13,7 @@
   src: url('./Fonts/montserrat/Montserrat-Regular.ttf');
 }
 * {
-  font-family: 'custom-montserrat-font';
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 .s-text {
