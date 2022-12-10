@@ -275,6 +275,10 @@ p {
     .skill-card {
         flex-direction: column;
     }
+    .skill-header{
+        text-align: center;
+        font-size: small;
+    }
 
     .experience {
         display: flex;
@@ -302,7 +306,10 @@ p {
     }
 
     .footer-container {
-        margin-top: 4rem;
+        display: flex;
+        position: relative;
+        margin-top: 8rem;
+       
     }
 }
 

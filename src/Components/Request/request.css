@@ -64,17 +64,21 @@ align-items: flex-end;
 }
 @media screen and (max-width: 768px){
     .request-container{
-        z-index: -999999;
+        padding: 0 10px;
+        display: flex;
         flex-direction: column;
-        margin-top: -20rem;
+        margin-top: -25rem;
     }
     .request-l>div{
         font-size: small;
+        padding: 0;
     }
     .mail-request{
+        width: 100%;
         flex-direction: column;
     }
     .mail-request>input{
-        padding: 10px;
+        color: white;
+        font-weight: bold;
     }
 }

@@ -72,7 +72,7 @@
 
 .sp {
     text-align: center;
-    height: fit-content;
+    height: auto;
     color: grey;
     width: 100%;
     bottom: 0;
@@ -89,10 +89,6 @@ h4 {
         flex-direction: column;
         position: relative;
         margin-top: 2rem;
-    }
-
-    .p-footer {
-        z-index: -999999;
     }
 
     .sp {
