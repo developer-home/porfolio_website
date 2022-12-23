@@ -31,6 +31,13 @@ const Education = () => {
         </div>
         <div className="e-righ">
           <span className="c-hd def">Certifications</span>
+          <span>I have cerrification in:</span>
+          <ul>
+            <li>HCNA Datacom</li>
+            <li>Computer Security</li>
+            <li>Linux Unhatched</li>
+            <li>cyber security</li>
+          </ul>
         </div>
       </div>
       <Footer />
