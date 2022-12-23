@@ -5,7 +5,7 @@ import Profile from "./Routes/Profile";
 import Education from './Routes/Education'
 import Skills from './Routes/Skills'
 import Gallery from './Routes/Gallery'
-import Contact from './Routes/contact/Contact'
+import Contact from './Routes/Contact'
 
 
 function App() {
