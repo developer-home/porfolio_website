@@ -77,7 +77,7 @@ export const workData = [
   {
     img: "data:image/png;base64,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",
     duration: "Nov 2021-Feb 2022",
-    institution: "KASNEB, ICT Intern",
+    institution: "KASNEB, ICT Attachment",
     skills: [
       "During this period, i took part in assisting with the installation of different software systems such as Antivirus, Microsoft products, ERP systems amoung other software products as required of me ",
       ", Assisted with Network troubleshooting, Network connections and network Maintainance",
@@ -110,22 +110,6 @@ export const workData = [
 ];
 
 export const galleryData = [
-  {
-    image: img1,
-    imageDescription: "Sample Image data",
-  },
-  {
-    image: img1,
-    imageDescription: "Sample Image data",
-  },
-  {
-    image: img1,
-    imageDescription: "Sample Image data",
-  },
-  {
-    image: img1,
-    imageDescription: "Sample Image data",
-  },
   {
     image: img1,
     imageDescription: "Sample Image data",
