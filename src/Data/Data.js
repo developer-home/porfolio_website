@@ -143,3 +143,37 @@ export const galleryData = [
     imageDescription: "Sample Image data",
   },
 ];
+
+export const educationData=[
+  {
+    year:'2016-2021',
+    school:'Laikipia University',
+    program:'Degree in BSC (Computer Science): Second class Upper Division'
+  },
+  {
+    year:'2012-2015',
+    school:'St Pauls High School',
+    program:'Kenya Certificate of secondary Education: B+'
+  },
+  {
+    year:'2002- 2011',
+    school:'Kapchepsir Primary School',
+    program:'Kenya Certificate of Primary Education'
+  },
+
+];
+export const certificationData=[
+  {
+    year:'Huawei Certifications: Completed',
+    certificate:'HCNA Datacom, Computer Security, Routing and Switching Technology'
+  },
+  {
+    year:'Cisco Certifications: ongoing',
+    certificate:'Linux Unhatch, Introduction to cyber Security, Introduction to python Programming, Network Esentials'
+  },
+  {
+    year:'Cousera Courses: Ongoing ',
+    certificate:'System Administration and IT Infrastructure, Relational Database and SQL'
+  },
+
+];
